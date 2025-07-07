@@ -60,6 +60,15 @@ stick_2 = [
     " 0\n\\|/  o\n |\n/ \\",
     " 0\n\\|/ o\n |\n/ \\",
     " 0\n\\|/o\n |\n/ \\",
+    " 0\n\\|/o\n |\n/ \\",
+    " 0\n\\|/o\n |\n/ \\",
+    " 0\n\\|/o\n |\n/ \\",
+    " 0\n\\|/o\n |\n/ \\",
+    " 0\n\\|/o\n |\n/ \\",
+    " 0\n\\|--\n | o\n/ \\",
+    " 0\n\\|--\n | o\n/ \\",
+    " 0\n\\|--\n | o\n/ \\",
+    " 0\n\\|\n | \\\n/ \o\"
 ]
 
 print("welcome to your very own password manager")
@@ -86,4 +95,4 @@ if choice == "welcome":
 
 if choice == "stick":   
     sticks(stick_1, repeat=5)
-    sticks(stick_2, repeat= 100)
+    sticks(stick_2, repeat=1)
